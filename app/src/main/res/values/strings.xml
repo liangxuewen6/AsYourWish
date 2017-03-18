@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AsYourWish</string>
+    <string name="first_customer">UserName: SuperMan</string>
+    <string name="pass_word">PassWord: SuperMan</string>
+    <string name="login">Login</string>
+    <string name="journey_begins">Journey begins！</string>
+</resources>
