@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private String mStringTest;
 
+    //We gonna use this varia to replace our uri.
     private String mTestUri = "https://www.baidu.com";
 
     private TextView mTvMsg;
@@ -43,6 +44,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //    tv.setText(stringFromJNI());
     }
 
+
+    //this is used for test volley & ping our server
+    //we do all things in main thread.It may cause anr.I am gonna modify it tomorrow.
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
