@@ -1,4 +1,4 @@
-package com.mikex.asyourwish.activities;
+package com.mikex.common.demoActivity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
